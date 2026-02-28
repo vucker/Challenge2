@@ -10,10 +10,8 @@ public class SpawnManagerX : MonoBehaviour
     private float spawnLimitXRight = 7;
     private float spawnPosY = 30;
 
-    private float startDelay = 1.0f;
     private float minSpawnInterval = 3.0f;
     private float maxSpawnInterval = 5.0f;
-    private float intervalTime = 0f;
     private float nextTimerSpawn;
     private void Start()
     {
